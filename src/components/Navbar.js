@@ -25,8 +25,8 @@ export default function Navbar(props) {
                             <button className="btn btn-outline-warning mx-2" type="submit">Search</button>
                         </form> */}
                         <div className="form-check form-switch my-2">
-                            <input onClick={props.enableMode} className="form-check-input btn btn-warning" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-                            <label className="form-check-label btn btn-outline-warning" htmlFor="flexSwitchCheckDefault">Enabled {props.mode} mode</label>
+                            {/* <input  className="form-check-input btn btn-warning" type="checkbox" role="switch" id="flexSwitchCheckDefault" /> */}
+                            <button onClick={props.enableMode} className="form-check-label btn btn-outline-warning" htmlFor="flexSwitchCheckDefault">Enabled {props.mode} mode</button>
                         </div>
                     </div>
                 </div>
